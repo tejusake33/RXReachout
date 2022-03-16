@@ -1,0 +1,16 @@
+{
+  "name": "samplewebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build style.css -o css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
