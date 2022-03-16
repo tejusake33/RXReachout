@@ -20,6 +20,7 @@ add_action('init', 'rxreachout_nav_menus');
 
 function rxreachout_theme_support() {
     add_image_size('pageBanner', 1500, 300, true);
+    add_theme_support('custom-logo');
 }
 
 add_action('after_setup_theme', 'rxreachout_theme_support');
